@@ -6,11 +6,10 @@
 
 .contenitore{
     padding: 50px 20px;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
-
-    /* debug */    
-    background: red;
+    background-color: #000;
 }
 
 header{
@@ -19,6 +18,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: right;
+    z-index: 500;
 
 
 
@@ -27,13 +27,22 @@ header{
     background-color: brown;
 }
 
+.tasto-in-alto{
+    background: rgb(198, 198, 198);
+    margin: 1px 3px;
+    border-radius: 3px;
+
+}
+
+
+
 .persone{
 
     width: calc(100vw - 10px);
-    background: green;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: #000;;
 
 }
 
@@ -42,14 +51,25 @@ header{
     width: 150px;
     height: 100px;
     margin: 4px;
+    position:relative;
 
 
     /* DEBUG */
-    background: aqua;
+    /* background-color: aqua; */
+    /* background-size: contain;
+    background-image: url("https://picsum.photos/seed/picsum/200/300"); */
 }
 
+.img{
+    width: 150px;
+    height: 100px;
+    size: cover;
+}
 .nome{
-
+    position: absolute;
+    top: 80%;
+    left:0;
+    z-index: 200;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     font-size: 8px;
@@ -62,20 +82,15 @@ footer{
     z-index: 199;
     width: 100%;
     /* height: 65px; */
-    padding: 1px 50px 5px;
+    /* padding: 1px 50px 3px; */
     margin-top: 100vh;
     transform: translate(0, -100%);
+    z-index: 500;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-
-
-
-    /* debug */
-    background-color: orchid;
+    background-color: rgb(122, 122, 122);
 }
 
 footer span{
@@ -93,9 +108,10 @@ footer span{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 
     /* debug */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .sezione-tasto{
@@ -116,7 +132,7 @@ footer span{
     align-items:center;
 
     /* debug */
-    background-color: azure;
+    /* background-color: azure; */
 
 }
 .testo-tasto{
@@ -125,5 +141,10 @@ footer span{
 }
 .end-call{
     color: red;
+    /* background-color: aliceblue; */
     
+}
+
+footer span *:hover {
+    background: rgb(198, 198, 198);
 }
