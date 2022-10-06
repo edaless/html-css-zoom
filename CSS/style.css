@@ -3,3 +3,45 @@
     padding:0;
     box-sizing: border-box;
 }
+
+.contenitore{
+    background: red;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+
+    /* debug */
+    background-color: brown;
+}
+
+.persone{
+
+    width: 90vw;
+    margin: 10px;
+    margin-right: 10px;
+    background: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.persona{
+    width: 150px;
+    height: 100px;
+    margin: 1px;
+
+
+    /* DEBUG */
+    background: aqua;
+}
+
+.nome{
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 8px;
+}
