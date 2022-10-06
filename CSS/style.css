@@ -100,6 +100,11 @@ footer span{
     
     width: 30px;
     height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    /* debug */
     background-color: azure;
 
 }
