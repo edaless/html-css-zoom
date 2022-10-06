@@ -5,9 +5,12 @@
 }
 
 .contenitore{
-    background: red;
+    padding: 50px 20px;
     display: flex;
     justify-content: center;
+
+    /* debug */    
+    background: red;
 }
 
 header{
@@ -27,8 +30,6 @@ header{
 .persone{
 
     width: calc(100vw - 10px);
-    margin: 10px;
-    margin-right: 10px;
     background: green;
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +41,7 @@ header{
 .persona{
     width: 150px;
     height: 100px;
-    margin: 1px;
+    margin: 4px;
 
 
     /* DEBUG */
