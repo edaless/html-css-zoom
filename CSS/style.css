@@ -82,7 +82,7 @@ i{
 .img{
     width: 150px;
     height: 100px;
-    size: cover;
+    /* size: cover; */
 }
 .nome{
     position: absolute;
@@ -141,6 +141,10 @@ footer span{
     /* flex-wrap: wrap; */
     align-items: center;
 
+}
+
+.green i{
+    color: green;
 }
 
 .icona{
