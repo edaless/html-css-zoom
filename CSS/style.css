@@ -24,16 +24,35 @@ header{
 
 
     /* debug */
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .tasto-in-alto{
-    background: rgb(198, 198, 198);
+    background-color: rgb(82, 82, 82);
     margin: 1px 3px;
     border-radius: 3px;
+    padding: 2px 3px;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
+
+.tasto-in-alto span{
+    margin: 0 2px;
+    font-size: 9px;
+    font-weight: 800;
+    color: white;
+
+}
+
+
+i{
+    color: white;
+
+}
 
 
 .persone{
@@ -70,8 +89,9 @@ header{
     top: 80%;
     left:0;
     z-index: 200;
+    height: fit-content;
     color: white;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.7);
     font-size: 8px;
 }
 
@@ -90,7 +110,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(122, 122, 122);
+    background-color: rgb(82, 82, 82);
 }
 
 footer span{
@@ -130,7 +150,6 @@ footer span{
     display: flex;
     justify-content: center;
     align-items:center;
-
     /* debug */
     /* background-color: azure; */
 
@@ -141,10 +160,13 @@ footer span{
 }
 .end-call{
     color: red;
-    /* background-color: aliceblue; */
     
 }
 
+.tasto-in-alto:hover {
+    background: rgb(198, 198, 198);
+}
 footer span *:hover {
     background: rgb(198, 198, 198);
 }
+
